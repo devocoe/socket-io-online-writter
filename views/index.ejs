@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Writer</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+      #editor {
+        width: 100%;
+        height: 100%;
+        padding: 1.4rem 3rem;
+        outline: none;
+        border: none;
+        background-color: white;
+        font-size: 1.4rem;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="editor"></textarea>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
